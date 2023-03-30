@@ -1,0 +1,19 @@
+.galary__header {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+    border-bottom: 4px solid rgb(64, 56, 56);
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 10px 0;
+}
+
+.gallary__thumnail {
+    width: 40%;
+    margin: auto;
+}
+
+.gallary__thumnail img {
+    width: 100%;
+}

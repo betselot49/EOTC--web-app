@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+.header {
+    margin: 0px;
+}
+
+.header__image {
+    display: flex;
+    justify-content: center;
+    height: 70px;
+}
+
+.header__thumbnail {
+    margin: auto;
+    height: 100%;
+
+}
+
+.header__background{
+    color: white;
+    background-image: url("../../Assets/Images/bible2.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 150px;
+    height: 880px;
+}
+
+.Logo {
+    font-size: 50px;
+    padding: 0 0;
+    margin-top: -5px;
+    margin-left: 50px;
+}
+
+.logo-text {
+    margin-left: 47px;
+    font-weight: 450;
+    color: orange;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.navbar__links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.navbar__item {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 35px;
+}
+
+.header__text {
+    padding: 80px 0;
+}
+
+.header__eotc {
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.header__quote {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Roboto';
+    font-weight: 300;
+}
+
+.header__verse {
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    color: orange;
+    margin-top: 25px;
+}
+
+.read__button {
+    margin-top: 15px;
+    color: white;
+    border: 3px solid white;
+    background-color: transparent;
+    border-radius: 10px;
+    font-size: 22px;
+    font-family: 'Roboto';
+    font-weight: 350;
+    padding: 15px 50px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.read__button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(15, 35, 42);
+    border: 3px solid rgb(255, 255, 255);
+    color: rgb(255, 115, 0);
+}
+
+.eotc-icon {
+    font-size: 50px;
+}
+

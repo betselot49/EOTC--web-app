@@ -1,0 +1,98 @@
+.contact {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    margin-top: 100px;
+    padding: 50px 0;
+    border-radius: 100px;
+}
+
+.contact__header {
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    padding: 40px 50px;
+    padding-bottom: 20px;
+}
+
+.contact__item1 {
+    color: black;
+}
+
+.item2, .item4, .item6{
+    font-size: 24px;
+    font-weight: 400;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.item3, .item5 {
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.item6 {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.item7 {
+    font-size: 80px;
+    padding: 50px 0;
+}
+
+.email {
+    text-align: center;
+    color: rgb(131, 131, 255);
+    margin-right: 20px;
+    font-size: 30px;
+    
+}
+
+.item2:hover, .item4:hover, .item6:hover {
+    color: rgb(131, 131, 255);
+    border-bottom: 1px solid black;
+}
+
+
+.Logo1 {
+    font-size: 50px;
+    padding: 0 0;
+    margin-top: 5px;
+    margin-left: 50px;
+    color: white;
+}
+
+.logo-text1 {
+    margin-left: 47px;
+    font-weight: 450;
+    color: rgb(2, 2, 40);
+}
+
+.navbar1 {
+    display: flex;
+    justify-content: space-between;
+    background-color:black;
+   
+}
+
+.navbar__links1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.navbar__item1 {
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 35px;
+}

@@ -1,0 +1,53 @@
+.main{
+    width: 75%;
+    margin: 2rem auto;
+}
+
+.style4{
+    font-size: 2rem;
+    margin-bottom: 1.2rem 0 1.2rem 0;
+}
+.ulborderbottom{
+    list-style:circle;
+    border-bottom: 2px solid black;
+    padding: 1.5rem;
+}
+
+
+
+
+.Logo1 {
+    font-size: 50px;
+    padding: 0 0;
+    margin-top: 5px;
+    margin-left: 50px;
+    color: white;
+}
+
+.logo-text1 {
+    margin-left: 47px;
+    font-weight: 450;
+    color: orange;
+}
+
+.navbar1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(2, 2, 36);
+   
+}
+
+.navbar__links1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.navbar__item1 {
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 35px;
+}
